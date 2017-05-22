@@ -147,8 +147,10 @@ $(function() {
   // Prevents input from having injected markup
   function cleanInputAuth (input) {
     var name = $('<div/>').text(input).text();
-    if(name == "jitu" || name=='roli' || name=='prerna' || name =='$')
-      return name;
+    if(name == "jitu001" || name=='roli123' || name=='prerna234')
+      return name.substring(0, name.length-3);
+    else if( name =='$')
+      return "root";
     return "";
   }
 
