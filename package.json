@@ -46,7 +46,7 @@
     "istanbul": "^0.4.5",
     "mocha": "3.5.3",
     "superagent": "3.7.0",
-    "supertest": "1.1.0"
+    "supertest": "5.0.0"
   },
   "contributors": [
     {
