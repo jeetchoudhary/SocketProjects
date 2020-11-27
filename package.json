@@ -26,7 +26,7 @@
     "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
-    "debug": "~2.6.6",
+    "debug": "~4.3.0",
     "engine.io": "~3.4.2",
     "object-assign": "~4.1.1",
     "socket.io-adapter": "~1.1.0",
